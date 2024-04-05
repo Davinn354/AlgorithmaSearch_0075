@@ -41,8 +41,17 @@ void LinearSearch()
         cin >> item;
         ctr = 0; //menambahkan ctr = 0 sebagai perhitungan jumlah perbandingan dimulai dari 0
         i = 0; //step 2 //menambahkan i = 0 yang digunakan sebagai indeks pencarian item yang dimulai dari indeks 0
+        while (i < n) //step 3 //menambahkan perulangan while untuk mengiterasi step 4 hingga menemukan posisi item
+        {
+            ctr++;
+            if (arr[i] == item)
+            {
+                cout << "\n" << item << " found at position " << (i + 1) << endl; //step 6
+                break;
+            }
+            i++; //step 4
+        }
 
-    } 
 
    
 }
