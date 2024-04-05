@@ -57,7 +57,7 @@ void LinearSearch()
         cout << "\nNumber of comparison : " << ctr << endl; //menambahkan output untuk keterangan jumlah perbandingan yang dilakukan
         cout << "\nContinue search (y/n) : "; //menambahkan input output untuk melanjutkan atau menghentikan pencarian
         cin >> ch;
-    }
+    } while ((ch == 'y') || (ch == 'Y')); //menambahkan syarat perulangan, jika jawaban 'y' atau 'Y' maka akan mengiterasi input item yang diinginkan
 
    
 }
