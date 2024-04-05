@@ -27,3 +27,6 @@ void input() // memulai prosedur input
         cin >> arr[i];
     }
 }
+
+
+void LinearSearch()
