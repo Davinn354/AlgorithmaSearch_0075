@@ -18,7 +18,12 @@ void input() // memulai prosedur input
     }
 
     //menambahkan output keterangan "enter array elements"
-    cout << "\n------------------\n";
+    cout << "\n---------------------\n";
     cout << "Enter array elements \n";
-    cout << "\n------------------\n";
+    cout << "\n-------------------\n";
+    for (i = 0; i < n; i++) //menambahkan looping for untuk mengiterasi input setiap elemen array dari indeks 0 hingga n-1
+    {
+        cout << "<" << (i + 1) << ">";
+        cin >> arr[i];
+    }
 }
