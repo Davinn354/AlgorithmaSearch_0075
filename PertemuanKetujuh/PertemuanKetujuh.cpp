@@ -9,6 +9,7 @@ void input() // memulai prosedur input
 	while (true) //menambahkan looping while (true) didalam input ntuk membuat loop yang akan terus berjalan tanpa henti sampai ada instruksi break di dalamnya.
     {
         cout << "Enter the number of elements in the array : "; //menambahkan input output jumlah element yang diinginkan dalam array 
+        cin >> n;
         
 
     }
