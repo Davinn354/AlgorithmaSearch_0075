@@ -69,3 +69,10 @@ void display() //membuat prosedur display
         cout << arr[i] << " ";
     cout << endl;
 }
+
+int main() //membuat fungsi main untuk memanggil seluruh prosedur
+{
+    input();
+    LinearSearch();
+    display();
+}
