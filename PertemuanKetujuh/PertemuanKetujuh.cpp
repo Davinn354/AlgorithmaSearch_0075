@@ -10,7 +10,10 @@ void input() // memulai prosedur input
     {
         cout << "Enter the number of elements in the array : "; //menambahkan input output jumlah element yang diinginkan dalam array 
         cin >> n;
-        
+        if ((n > 0) && (n <= 20)) //menambahkan decision making if..else untuk menentukan apakah program akan melanjutkan eksekusi atau menampilkan pesan kesalahan
+            break;
+        else
+            cout << "\nArray shoould have minimum 1 and maximum 20 elements.\n\n";
 
     }
 }
