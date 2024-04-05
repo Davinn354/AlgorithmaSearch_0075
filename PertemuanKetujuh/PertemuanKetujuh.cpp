@@ -6,5 +6,5 @@ int n; //membuat variable global int n untuk menyimpan jumlah elemen yang diingi
 int i; //membuat variable global int i yang digunakan sebagai indeks iterasi 
 void input() // memulai prosedur input
 {
-
+	while (true) //menambahkan looping while (true) didalam input ntuk membuat loop yang akan terus berjalan tanpa henti sampai ada instruksi break di dalamnya.
 }
