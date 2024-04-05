@@ -32,5 +32,6 @@ void input() // memulai prosedur input
 void LinearSearch()
 {
     char ch; 
+    int ctr; 
     
 }
