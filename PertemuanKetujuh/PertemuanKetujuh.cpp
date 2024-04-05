@@ -51,7 +51,12 @@ void LinearSearch()
             }
             i++; //step 4
         }
+        if (i == n) //step 5 //menambahkan desicion making if ketika indeks i sudah sampai baris akhir artinya posisi item tidak ditemukan
+            cout << "\n" << item << " not found in the array\n";
 
+        cout << "\nNumber of comparison : " << ctr << endl; //menambahkan output untuk keterangan jumlah perbandingan yang dilakukan
+       
+    }
 
    
 }
