@@ -40,7 +40,8 @@ void LinearSearch()
         cout << "\nEnter the elemnt you want to search : "; //step 1 //menambahkan input output untuk membaca item apa yang akan dicari
         cin >> item;
         ctr = 0; //menambahkan ctr = 0 sebagai perhitungan jumlah perbandingan dimulai dari 0
-        
+        i = 0; //step 2 //menambahkan i = 0 yang digunakan sebagai indeks pencarian item yang dimulai dari indeks 0
+
     } 
 
    
